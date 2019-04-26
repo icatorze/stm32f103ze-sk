@@ -1,5 +1,12 @@
 # stm32f103ze-sk
-Experiences and tricks to run an old STM32F103ZE-SK kit
+Experiences and tricks to run an old STM32F103ZE-SK kit.
+
+IAR still has information about schematics about this board, you can download it here:
+
+[IAR STM32F103ZE-SK Updates](https://www.iar.com/iar-embedded-workbench/add-ons-and-integrations/updates-for-iar-kickstart-kit/)
+
+Direct link to files: 
+ftp://ftp.iar.se/WWWfiles/kit_updates/IAR%20KickStart%20Kit-ST.zip
 
 This board has a Segger J-Link hard wired to uC. I run a Debian 9 for while, and J-Link was detected like:
 
