@@ -39,14 +39,8 @@ I previously installed Eclipse CDT, gcc-arm-none-eabi and gdb-arm-none-eabi pack
 ```
 jack@jaragua:~$ sudo apt-get install eclipse-cdt gcc-arm-none-eabi gdb-arm-none-eabi
 ```
+<<<<<<< HEAD
 
 Now, make a register in ST.com website to download STM32CubeMx and start configuration for a basis project:
 [ST STM32CubeMX software](https://www.st.com/en/development-tools/stm32cubemx.html)
-
-
-
-
-
-
-
 
