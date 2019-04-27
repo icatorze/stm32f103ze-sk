@@ -21,3 +21,32 @@ This board has a Segger J-Link hard wired to uC. I run a Debian 9 for while, and
 [189011.064102] usb 2-2: SerialNumber: xxxxxxxxxxx
 ...
 ```
+
+Download from Segger website, J-Link software .deb package:
+[Segger J-Link software deb Package](https://www.segger.com/downloads/jlink/JLink_Linux_x86_64.deb)
+
+Install deb package with dpkg command:
+```console
+jack@jaragua:~$ sudo dpkg -i JLink_Linux_V644g_x86_64.deb
+```
+
+After sucessfull installation, I connect an USB cable to board's USB_Jlink and run ~JLinkSTM32~ command to reset options byte to factory settings, choosing option 2 for STM32F1xxxx:
+```console
+jack@jaragua:/opt/SEGGER/JLink$ ./JLinkSTM32
+```
+
+I previously installed Eclipse CDT, gcc-arm-none-eabi and gdb-arm-none-eabi packages from Debian Repository:
+```
+jack@jaragua:~$ sudo apt-get install eclipse-cdt gcc-arm-none-eabi gdb-arm-none-eabi
+```
+
+Now, make a register in ST.com website to download STM32CubeMx and start configuration for a basis project:
+[ST STM32CubeMX software](https://www.st.com/en/development-tools/stm32cubemx.html)
+
+
+
+
+
+
+
+
